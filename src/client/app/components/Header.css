@@ -1,0 +1,21 @@
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style: none;
+    background: #5f5f5f;
+    color: white;
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    padding: 3vh 21vh;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
