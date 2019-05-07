@@ -1,14 +1,11 @@
 import React, {Component} from 'react';
 
-import Header from '../components/Header.js';
-
 import './Home.css';
 
 class App extends Component {
   render() {
       return (
           <div>
-            <Header />
             <div class="split left">
               hello
             </div>
