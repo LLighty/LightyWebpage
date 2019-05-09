@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/LLighty/LightyWebpage",
+  "homepage": "https://LLighty.github.io/LightyWebpage/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",

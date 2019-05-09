@@ -9,7 +9,7 @@ function getFluffyPicture(){
     .then(response => response.data.children)
     .then( (response) => {
         return response.map( (post) => {
-            if (post.data.is_video || post.data.media != null){
+            if (post.data.is_video || post.data.media != null || post.data.url.includes("gifv")){
                 return null;
             } else {
                 return post.data.url
