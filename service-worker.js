@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LightyWebpage/precache-manifest.269df87a135da7e99d25498db1f2e0f9.js"
+  "/LightyWebpage/precache-manifest.d26e8942dc6d89e86bcf2f6fb24dc496.js"
 );
 
 self.addEventListener('message', (event) => {

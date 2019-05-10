@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d23c901eef93e44bfba1499c035ffbc8",
+    "revision": "e0cba66b1a7ebf9a87c14f5c8a3052db",
     "url": "/LightyWebpage/index.html"
   },
   {
-    "revision": "d87c1784cf08af0c3844",
+    "revision": "18c2d613f971723560da",
     "url": "/LightyWebpage/static/css/main.76c9da78.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LightyWebpage/static/js/2.1729751e.chunk.js"
   },
   {
-    "revision": "d87c1784cf08af0c3844",
-    "url": "/LightyWebpage/static/js/main.409486bd.chunk.js"
+    "revision": "18c2d613f971723560da",
+    "url": "/LightyWebpage/static/js/main.ea4d543a.chunk.js"
   },
   {
     "revision": "947c1b574c355fdcfaf6",
