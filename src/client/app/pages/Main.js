@@ -15,24 +15,24 @@ function AppRouter() {
         <nav>
           <ul id="nav">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/LightyWebpage/">Home</Link>
             </li>
             <li>
-              <Link to="/about/">About Me</Link>
+              <Link to="/LightyWebpage/about/">About Me</Link>
             </li>
             <li>
-              <Link to="/resume/">Resume</Link>
+              <Link to="/LightyWebpage/resume/">Resume</Link>
             </li>
             <li>
-                <Link to="/contact/">Contact</Link>
+                <Link to="/LightyWebpage/contact/">Contact</Link>
             </li>
           </ul>
         </nav>
 
-        <Route path="/" exact   component={Home} />
-        <Route path="/about/"   component={About} />
-        <Route path="/resume/"  component={Resume} />
-        <Route path="/contact/" component={Contact} />
+        <Route path="/LightyWebpage/" exact   component={Home} />
+        <Route path="/LightyWebpage/about/"   component={About} />
+        <Route path="/LightyWebpage/resume/"  component={Resume} />
+        <Route path="/LightyWebpage/contact/" component={Contact} />
 
       </div>
     </Router>

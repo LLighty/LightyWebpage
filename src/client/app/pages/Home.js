@@ -13,22 +13,15 @@ class App extends Component {
   }
 
   componentWillMount(){
+    this.setState({quote: GetProgrammingQuote()});
+
     var picture = GetCutePicture();
-    var quote = GetProgrammingQuote();
 
     picture.then(result => {
       if(result !== "error" || result !== ""){
         this.setState({picture: result});
       } else {
         
-      }
-    })
-
-    quote.then(quote => {
-      if(quote !== "error" || quote !== ""){
-        this.setState({quote: quote});
-      } else {
-        this.setState({quote: "“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”, Bill Gates"});
       }
     })
   }
