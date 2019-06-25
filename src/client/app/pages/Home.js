@@ -13,6 +13,7 @@ class App extends Component {
   }
 
   componentWillMount(){
+    document.body.style.background = "yellow";
     this.setState({quote: GetProgrammingQuote()});
 
     var picture = GetCutePicture();
@@ -30,7 +31,17 @@ class App extends Component {
       return (
           <div>
             <div class="split left">
-              hello
+            <div class="texthp">
+                <h1 class="titleIndent" align="center">Hello and welcome to my website!</h1>
+                <h3>It is great of you to come and have a look. If you look to the top of the page you will find the navigation bar! This navigation bar 
+                  is a wonderous thing and will take you to the important aspects of the site. 
+                </h3>
+                <h3>The two panels on the right depict the neccessities of life:
+                  <li class="texthp">finding witty programming quotes and</li> 
+                  <li class="texthp">sharing photos of everything fluffy!</li>
+                </h3>
+                <h3>This page was made with React and hosted on Github Pages.</h3>
+              </div>
             </div>
             <div class="split right top">
               <h2 class ="centre">
@@ -38,9 +49,11 @@ class App extends Component {
               </h2>
             </div>
             <div class="split right bottom">
-              <img src={this.state.picture} alt="Everyone likes fluffy pictures!" id="img"/>
-              <div>
-                Hello is it me you're looking for
+              <div class ="middleWidth">
+                <img src={this.state.picture} alt="Everyone likes fluffy pictures!" id="img"/>
+                <div>
+                  Everybody likes cute fluffy animals!
+                </div>
               </div>
             </div>
           </div>

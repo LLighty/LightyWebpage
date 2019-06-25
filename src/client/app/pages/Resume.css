@@ -1,0 +1,49 @@
+
+.resume-left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.resume-right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+.resume-content {
+    position: absolute;
+    display: flex;
+    top:10%;
+    width: 100%;
+    height: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resume-container {
+    background: #fff;
+    border: 2px solid black;
+    height: 30vh;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.move-li-resume{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.centre-align-text {
+    text-align: center;
+}
+
+.centre-align-resume{
+    margin-left: 45%;
+}

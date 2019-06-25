@@ -21,7 +21,7 @@ function AppRouter() {
               <Link to="/LightyWebpage/about/">About Me</Link>
             </li>
             <li>
-              <Link to="/LightyWebpage/resume/">Resume</Link>
+              <Link to="/LightyWebpage/skills/">Skills</Link>
             </li>
             <li>
                 <Link to="/LightyWebpage/contact/">Contact</Link>
@@ -31,7 +31,7 @@ function AppRouter() {
 
         <Route path="/LightyWebpage/" exact   component={Home} />
         <Route path="/LightyWebpage/about/"   component={About} />
-        <Route path="/LightyWebpage/resume/"  component={Resume} />
+        <Route path="/LightyWebpage/skills/"  component={Resume} />
         <Route path="/LightyWebpage/contact/" component={Contact} />
 
       </div>

@@ -34,9 +34,13 @@
 /* bottom of Right Side */
 .bottom {
   height: 46vh;
-  background: red;
+  background: cyan;
 }
 
+.middleWidth {
+  position: relative;
+  margin-left: 20%;
+}
 
 .centre {
   text-align: center;
@@ -52,4 +56,13 @@
   margin-top: 2vh;
   height: 40vh;
   width: 30vw;
+}
+
+.titleIndent {
+  margin-right: 15%;
+}
+
+/* style for the text */
+.texthp {
+  margin-left: 5%;
 }
