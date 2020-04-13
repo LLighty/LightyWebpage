@@ -36,10 +36,13 @@ class About extends Component {
       return (
           <div>
             <div>{this.fallingParticles()}</div>
-            <div class="aboutMe-Box">
-              <p class="aboutMe-Box-Centre aboutMe-Box-Title-Text">Liam Lightfoot</p>
-              <p>I am a 4th year University Student studying Software Engineering at the ANU. </p>
-            </div>
+            <div class="aboutMe centre-alignment-about">
+              <h1>Liam Lightfoot</h1>
+              <div class="text-about">
+                <p>I am a fourth year Software Engineering student at the Australian National University (ANU).</p>
+                <p></p>
+              </div>
+              </div>
           </div>
       )
   }

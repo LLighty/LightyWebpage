@@ -10,11 +10,11 @@
 
 #nav li{
     float: left;
-    padding: 2% 8% 2% 8%;
 }
 
 #nav li a {
     display: block;
+    padding: 3vh 21vh;
     text-decoration: none;
     font-weight: bold;
     color: white;

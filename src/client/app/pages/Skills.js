@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import './Resume.css';
+import './Skills.css';
 
 var styles = {
   body: {
@@ -11,7 +11,7 @@ var styles = {
   }
 }
 
-class Resume extends Component {
+class Skills extends Component {
 
   componentWillMount(){
     for(var i in styles.body){
@@ -22,12 +22,11 @@ class Resume extends Component {
   render() {
       return (
         <div>
-          <div class="resume-left">
-            <h1 class="centre-align-resume">Skills</h1>
+            <div class="centre-align-resume">Skills</div>
             <div class="resume-content">
               <div class="resume-container">
                 <div class="centre-align-text">
-                  <h2>Languages</h2>
+                  <h2 class="underline">Languages</h2>
                 </div>
               <li class="move-li-resume">Java</li>
               <li class="move-li-resume">C#</li>
@@ -35,10 +34,11 @@ class Resume extends Component {
               <li class="move-li-resume">Haskell</li>
               <li class="move-li-resume">Bash</li>
               <li class="move-li-resume">Python</li>
+              <li class="move-li-resume">Ada</li>
               </div>
               <div class="resume-container">
               <div class="centre-align-text">
-                  <h2>Front-End</h2>
+                  <h2 class="underline">Front-End</h2>
                 </div>
               <li class="move-li-resume">HTML5</li>
               <li class="move-li-resume">CSS</li>
@@ -46,17 +46,16 @@ class Resume extends Component {
               </div>
               <div class="resume-container">
               <div class="centre-align-text">
-                  <h2>Back-end</h2>
+                  <h2 class="underline">Back-end</h2>
                 </div>
               <li class="move-li-resume">MySQL</li>
               <li class="move-li-resume">JAX-RS</li>
               <li class="move-li-resume">Gradle</li>
-              <li class="move-li-resume">GIT</li>
               <li class="move-li-resume">NodeJS</li>
               </div>
               <div class="resume-container">
               <div class="centre-align-text">
-                  <h2>Documentation</h2>
+                  <h2 class="underline">Documentation</h2>
                 </div>
               <li class="move-li-resume">Agile</li>
               <li class="move-li-resume">Risk Analysis</li>
@@ -64,13 +63,9 @@ class Resume extends Component {
               <li class="move-li-resume">Relationship Schemas</li>
               </div> 
             </div>
-          </div>
-          <div class="resume-right">
-            <h1 class="centre-align-resume">Projects</h1>
-          </div>
         </div>
       )
   }
 }
 
-export default Resume;
+export default Skills;

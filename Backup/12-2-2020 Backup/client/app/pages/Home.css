@@ -1,0 +1,68 @@
+
+/* Splits the screen in half */
+.split {
+  height: 92vh;
+  width: 50%;
+  overflow: auto;
+}
+
+/* Left Side */
+.left {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0)),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0)),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0));
+  float: left;
+  width: 50%;
+}
+
+/* Right Side */
+.right {
+  float: right;
+  width: 50%;
+}
+
+/* Top of Right Side */
+.top {
+  height: 46vh;
+  background: blue;
+  background-image: url("../Images/Programming_Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: palegoldenrod;
+}
+
+/* bottom of Right Side */
+.bottom {
+  height: 46vh;
+  background: cyan;
+}
+
+.middleWidth {
+  position: relative;
+  margin-left: 20%;
+}
+
+.centre {
+  text-align: center;
+  text-shadow:4px 4px 8px blue;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15%;
+  background-color: black;
+}
+
+/* style for image */
+#img {
+  margin-top: 2vh;
+  height: 40vh;
+  width: 30vw;
+}
+
+.titleIndent {
+  margin-right: 15%;
+}
+
+/* style for the text */
+.texthp {
+  margin-left: 5%;
+}

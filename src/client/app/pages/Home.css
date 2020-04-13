@@ -8,9 +8,9 @@
 
 /* Left Side */
 .left {
-  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0)),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0)),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0));
   float: left;
   width: 50%;
 }
@@ -43,12 +43,13 @@
 }
 
 .centre {
+  position: fixed;
   text-align: center;
-  text-shadow:4px 4px 8px blue;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 15%;
+  top: 30%;
+  margin-left: 25vw;
+  margin-right: 25vw;
   background-color: black;
+  width: 50vw;
 }
 
 /* style for image */
@@ -65,4 +66,47 @@
 /* style for the text */
 .texthp {
   margin-left: 5%;
+}
+
+.backgroundHome { 
+  background-image: url("../Images/Programming_Background.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  color: yellow;
+}
+
+/* 
+  Calculating responsive text
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); 
+*/
+.largePrint {
+  font-size: calc(22px + (70 - 20) * ((100vw - 300px) / (1600 - 300)));
+  text-decoration: underline;
+}
+
+.finePrint {
+  font-size: calc(18px + (60 - 16) * ((100vw - 300px) / (1600 - 300)));
+  text-decoration: underline;
+}
+
+.quoteSquare {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  margin-left: 5vw;
+  margin-top: 1vw;
+  background-color: black;
+  width: 40vw;
+}
+
+.quoteText {
+  font-family: 'Helvetica';
+  color: yellow;
+  font-size: calc(20px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
