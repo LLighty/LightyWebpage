@@ -5,6 +5,7 @@ import './Contact.css';
 
 const githubImage = require('../Images/github.png');
 const gmailImage = require('../Images/gmail.png');
+const discordImage = require('../Images/discord-logo.jpg');
 
 class Contact extends Component {
 
@@ -17,10 +18,10 @@ class Contact extends Component {
           <div>
             <div class="Centre-Align-Contacts">Click on the Images to contact me through that medium.</div>
             <div class="ContactFlexContainer">
-              <div class="ContactFlexItem"><img src={githubImage} alt="" class="fill" height="100%" width="100%" /></div>
-              <div class="ContactFlexItem"></div>
-              <div class="ContactFlexItem"><img src={gmailImage} alt="" class="fill" height="100%" width="100%" /></div>
-            </div>
+              <div class="ContactFlexItem"><a href="https://github.com/LLighty"><img src={githubImage} alt="" class="fill" height="100%" width="100%" /></a></div>
+              <div class="ContactFlexItem"><a href="https://discordapp.com/users/152687030290087936"><img src={discordImage} alt="" class="fill" height="100%" width="100%" /></a></div>
+              <div class="ContactFlexItem"><a href="mailto:liamjameslightfoot@gmail.com"><img src={gmailImage} alt="" class="fill" height="100%" width="100%" /></a></div>
+            </div> //152687030290087936
           </div>
       )
   }

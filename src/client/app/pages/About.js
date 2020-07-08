@@ -38,7 +38,10 @@ class About extends Component {
             <div>{this.fallingParticles()}</div>
             <div class="aboutMe-Box">
               <p class="aboutMe-Box-Centre aboutMe-Box-Title-Text">Liam Lightfoot</p>
-              <p>I am a 4th year University Student studying Software Engineering at the ANU. </p>
+              <p>I am a 4th year University Student studying Software Engineering at the ANU. My main interests revolve around the sectors of Cyber Security, namely in 
+                penetration testing and malware analysis, and I also have interests in application development, notably backend logic design in desktop applications. Outside of 
+                computer science I enjoy reading both high fantasy novels, playing football and playing video games. 
+              </p>
             </div>
           </div>
       )

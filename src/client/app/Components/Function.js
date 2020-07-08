@@ -44,7 +44,7 @@ export function GetProgrammingQuote(){
 }
 
 /*Gets a programming quote from the website "quotes.stormconsultancy.co.uk" 
-* Deprecated since it references an insecure resource*/
+* Deprecated since it references an insecure resource
 export async function GetProgrammingQuotes(){
     return fetch("http://quotes.stormconsultancy.co.uk/random.json")
     .then((response) => response.json())
@@ -54,7 +54,7 @@ export async function GetProgrammingQuotes(){
     .catch(function(error){
         return "error";
     })
-}
+} */
 
 /*Uses the getFluffyPicture to grab a bunch of picture URLS
 * Then selects the first one and returns it */
