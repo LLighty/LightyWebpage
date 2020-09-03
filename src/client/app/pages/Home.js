@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import { GetCutePicture, GetProgrammingQuote } from '../Components/Function';
+import { GetCutePicture, GetProgrammingQuote } from '../components/Function';
 
 import './Home.css';
 
